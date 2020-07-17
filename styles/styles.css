@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+body {
+    font-family: arial;
+    color: #FCF6F9;
+}
+
+a {
+    font-size: inherit;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #F46262;
+    padding: 10px;
+}
+.header .container {
+    padding: 30px 10px;
+}
+.logo {
+    float: left;
+    margin-top: -20px;
+}
+
+.logo img {
+    float: left;
+    width: 40px;
+}
+
+.logo h2{
+    float: left;
+    font-size: 30px;
+    padding-top: 3px;
+    padding-left: 7px;
+}
+
+.logo p{
+    clear: both;
+}
+
+.header ul {
+    float: right;
+    margin-top: -8px;
+}
+
+.header li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header li:hover {
+    background: #212223;
+}
+
+.slider {
+    background: #EB504E;
+    min-height: 100px;
+    text-align: center;
+}
+
+.slider h1 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.slider p {
+    font-size: inherit;
+    padding-top: 5px;
+}
+
+.merits {
+    background: #232323;
+    min-height: 300px;
+    text-align: center;
+}
+
+.merits h1 {
+    font-size: 30px;
+    padding-top: 13px;
+}
+
+.merits p {
+    color: #E84C3D;
+}
+
+.feauters {
+    min-height: 200px;
+    margin-top: 20px;
+}
+
+.option {
+    width: 220px;
+    float: left;
+    margin-right: 5%;
+    margin-left: 7%
+}
+
+.option h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.option p {
+    margin-top: 5px;
+}
+
+.team {
+    background: #6CC372;
+    text-align: center;
+    min-height: 400px;
+
+}
+
+.team h1 {
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 15px;
+}
+
+.team p {
+    color: #232323;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.experts {
+    width: 100%;
+}
+
+.expert {
+    width: 22%;
+    height: 320px;
+    background: #fff;
+    margin: 0 auto;
+    float: left;
+    margin-right: 16px;
+    margin-left: 16px;
+    border-radius: 8px;
+}
+
+.expert img {
+    border: 8px solid #6cc372;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.expert h2 {
+    color: #6cc372;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.expert p {
+    color: #F46262;
+    margin-top: 10px;
+}
+
+.expert .button{
+    max-width: 200px;
+    height: 30px;
+    background: #6CC372;
+    color: #fff;
+    margin: 10px auto 10px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.expert .button img {
+    border: none;
+    float: left;
+    margin: 3px;
+}
+.expert .button p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: -1px;
+    padding-right: 35px;
+}
+
+.footer {
+    background: #232323;
+    min-height: 18px;
+    margin-top: 1px;
+    padding: 10px;
+}
+
+.footer p{
+    display: inline;
+    color: #E84C3D;
+}
+
+
